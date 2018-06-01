@@ -1,0 +1,43 @@
+body {
+    font-family: 'Viga', sans-serif;
+    background-color: rgb(255, 252, 250);
+}
+
+footer {
+    margin: 2em;
+    text-align: center;
+    font-size: 0.7em;
+    color: rgb(104, 104, 104)
+}
+
+table {
+    text-align: center;
+    border-radius: 10px;
+}
+
+#table, #currentlyOnline, #userLogos, footer {
+    display: none;
+}
+
+#twitchLogo {
+    width: 13em;
+}
+
+header {
+    text-align: center;
+    margin: 1em;
+}
+
+ul.pagination {
+    margin-top: 1em;
+}
+
+#currentlyOnline {
+    text-align: center;
+    margin-bottom: -0.8em;
+}
+
+#userLogos {
+    text-align: center;
+    margin-bottom: 3em;
+}

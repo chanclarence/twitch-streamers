@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Twitch.tv Streamers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="https://www.twitch.com/">
+                <img id="twitchLogo" src="images/Twitch_Purple_RGB.svg">
+            </a>
+            <br>
+            <a href="https://fontmeme.com/fonts/twitchy-tv-font/">
+                <img src="https://fontmeme.com/permalink/180529/8f13a04536035b6c5ddeaa8f70faab8a.png" alt="twitchy-tv-font" border="0">
+            </a>
+            <br>
+            <br>
+        </header>
+        <div id="currentlyOnline"><p>Currently Online:</p></div><div id="userLogos"></div>
+        <div class="table-responsive">
+            <table id="table" class="table table-sm table-light table-striped table-responsive-lg" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Channel</th>
+                        <th>Online?</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
+        </div>
+        <footer>&#169 Written and coded by Clarence Chan, 2018</footer>
+    </div>
+
+</body>
+
+</html>
